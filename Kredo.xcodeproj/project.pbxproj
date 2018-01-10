@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810B838E1FFF907000251163 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B838D1FFF907000251163 /* User.swift */; };
+		810B83911FFFA02C00251163 /* CardsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B83901FFFA02C00251163 /* CardsListTableViewCell.swift */; };
+		810B83931FFFA82200251163 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B83921FFFA82200251163 /* CardModel.swift */; };
+		810B83951FFFD7C000251163 /* OperationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B83941FFFD7C000251163 /* OperationModel.swift */; };
+		810B83971FFFDEA400251163 /* OperationsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B83961FFFDEA400251163 /* OperationsListTableViewController.swift */; };
+		810B839A20009F2200251163 /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B839920009F2200251163 /* OperationTableViewCell.swift */; };
+		810B839C2000B3F800251163 /* SettingsStaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B839B2000B3F800251163 /* SettingsStaticViewController.swift */; };
+		8152A47F20053E4E007A46C6 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152A47E20053E4E007A46C6 /* Switcher.swift */; };
+		8152A48120062F97007A46C6 /* OperationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152A48020062F97007A46C6 /* OperationDetailViewController.swift */; };
+		81E220571FFE81E8005DE7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220561FFE81E8005DE7AB /* AppDelegate.swift */; };
+		81E220591FFE81E8005DE7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220581FFE81E8005DE7AB /* ViewController.swift */; };
+		81E2205C1FFE81E8005DE7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E2205A1FFE81E8005DE7AB /* Main.storyboard */; };
+		81E2205E1FFE81E8005DE7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E2205D1FFE81E8005DE7AB /* Assets.xcassets */; };
+		81E220611FFE81E8005DE7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E2205F1FFE81E8005DE7AB /* LaunchScreen.storyboard */; };
+		81E2206C1FFE81E8005DE7AB /* KredoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2206B1FFE81E8005DE7AB /* KredoTests.swift */; };
+		81E220771FFE81E8005DE7AB /* KredoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220761FFE81E8005DE7AB /* KredoUITests.swift */; };
+		81E220861FFE879D005DE7AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220851FFE879D005DE7AB /* MainViewController.swift */; };
+		81E220881FFE8E52005DE7AB /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220871FFE8E52005DE7AB /* ApiManager.swift */; };
+		81E2208A1FFE9459005DE7AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220891FFE9459005DE7AB /* SettingsViewController.swift */; };
+		81E2208D1FFE95AF005DE7AB /* TouchIDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2208C1FFE95AF005DE7AB /* TouchIDTableViewCell.swift */; };
+		81E2208F1FFE95D3005DE7AB /* PinCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2208E1FFE95D3005DE7AB /* PinCodeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81E220681FFE81E8005DE7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E2204B1FFE81E8005DE7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E220521FFE81E8005DE7AB;
+			remoteInfo = Kredo;
+		};
+		81E220731FFE81E8005DE7AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81E2204B1FFE81E8005DE7AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81E220521FFE81E8005DE7AB;
+			remoteInfo = Kredo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810B838D1FFF907000251163 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		810B83901FFFA02C00251163 /* CardsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListTableViewCell.swift; sourceTree = "<group>"; };
+		810B83921FFFA82200251163 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		810B83941FFFD7C000251163 /* OperationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationModel.swift; sourceTree = "<group>"; };
+		810B83961FFFDEA400251163 /* OperationsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsListTableViewController.swift; sourceTree = "<group>"; };
+		810B839920009F2200251163 /* OperationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTableViewCell.swift; sourceTree = "<group>"; };
+		810B839B2000B3F800251163 /* SettingsStaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStaticViewController.swift; sourceTree = "<group>"; };
+		810B83A02004C4BC00251163 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8152A47E20053E4E007A46C6 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		8152A48020062F97007A46C6 /* OperationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailViewController.swift; sourceTree = "<group>"; };
+		81E220531FFE81E8005DE7AB /* Kredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E220561FFE81E8005DE7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81E220581FFE81E8005DE7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81E2205B1FFE81E8005DE7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81E2205D1FFE81E8005DE7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81E220601FFE81E8005DE7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81E220621FFE81E8005DE7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E220671FFE81E8005DE7AB /* KredoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KredoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E2206B1FFE81E8005DE7AB /* KredoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredoTests.swift; sourceTree = "<group>"; };
+		81E2206D1FFE81E8005DE7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E220721FFE81E8005DE7AB /* KredoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KredoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E220761FFE81E8005DE7AB /* KredoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KredoUITests.swift; sourceTree = "<group>"; };
+		81E220781FFE81E8005DE7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E220851FFE879D005DE7AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		81E220871FFE8E52005DE7AB /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		81E220891FFE9459005DE7AB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		81E2208C1FFE95AF005DE7AB /* TouchIDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDTableViewCell.swift; sourceTree = "<group>"; };
+		81E2208E1FFE95D3005DE7AB /* PinCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81E220501FFE81E8005DE7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E220641FFE81E8005DE7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2206F1FFE81E8005DE7AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810B838F1FFF907600251163 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				810B838D1FFF907000251163 /* User.swift */,
+				810B83921FFFA82200251163 /* CardModel.swift */,
+				810B83941FFFD7C000251163 /* OperationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		810B83981FFFDFEF00251163 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				81E2208B1FFE9568005DE7AB /* settingsCell */,
+				810B83901FFFA02C00251163 /* CardsListTableViewCell.swift */,
+				810B839920009F2200251163 /* OperationTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		81E2204A1FFE81E8005DE7AB = {
+			isa = PBXGroup;
+			children = (
+				81E220551FFE81E8005DE7AB /* Kredo */,
+				81E2206A1FFE81E8005DE7AB /* KredoTests */,
+				81E220751FFE81E8005DE7AB /* KredoUITests */,
+				81E220541FFE81E8005DE7AB /* Products */,
+				CF37D34B5563CC2B119CE695 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81E220541FFE81E8005DE7AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E220531FFE81E8005DE7AB /* Kredo.app */,
+				81E220671FFE81E8005DE7AB /* KredoTests.xctest */,
+				81E220721FFE81E8005DE7AB /* KredoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81E220551FFE81E8005DE7AB /* Kredo */ = {
+			isa = PBXGroup;
+			children = (
+				810B838F1FFF907600251163 /* Models */,
+				81E220871FFE8E52005DE7AB /* ApiManager.swift */,
+				8152A47E20053E4E007A46C6 /* Switcher.swift */,
+				81E220841FFE8744005DE7AB /* Views */,
+				81E220561FFE81E8005DE7AB /* AppDelegate.swift */,
+				81E2205A1FFE81E8005DE7AB /* Main.storyboard */,
+				81E2205D1FFE81E8005DE7AB /* Assets.xcassets */,
+				81E2205F1FFE81E8005DE7AB /* LaunchScreen.storyboard */,
+				81E220621FFE81E8005DE7AB /* Info.plist */,
+			);
+			path = Kredo;
+			sourceTree = "<group>";
+		};
+		81E2206A1FFE81E8005DE7AB /* KredoTests */ = {
+			isa = PBXGroup;
+			children = (
+				81E2206B1FFE81E8005DE7AB /* KredoTests.swift */,
+				81E2206D1FFE81E8005DE7AB /* Info.plist */,
+			);
+			path = KredoTests;
+			sourceTree = "<group>";
+		};
+		81E220751FFE81E8005DE7AB /* KredoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81E220761FFE81E8005DE7AB /* KredoUITests.swift */,
+				81E220781FFE81E8005DE7AB /* Info.plist */,
+			);
+			path = KredoUITests;
+			sourceTree = "<group>";
+		};
+		81E220841FFE8744005DE7AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				810B83981FFFDFEF00251163 /* Cells */,
+				81E220581FFE81E8005DE7AB /* ViewController.swift */,
+				81E220851FFE879D005DE7AB /* MainViewController.swift */,
+				81E220891FFE9459005DE7AB /* SettingsViewController.swift */,
+				810B83961FFFDEA400251163 /* OperationsListTableViewController.swift */,
+				810B839B2000B3F800251163 /* SettingsStaticViewController.swift */,
+				8152A48020062F97007A46C6 /* OperationDetailViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81E2208B1FFE9568005DE7AB /* settingsCell */ = {
+			isa = PBXGroup;
+			children = (
+				81E2208C1FFE95AF005DE7AB /* TouchIDTableViewCell.swift */,
+				81E2208E1FFE95D3005DE7AB /* PinCodeTableViewCell.swift */,
+			);
+			path = settingsCell;
+			sourceTree = "<group>";
+		};
+		CF37D34B5563CC2B119CE695 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				810B83A02004C4BC00251163 /* TextFieldEffects.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81E220521FFE81E8005DE7AB /* Kredo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E2207B1FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "Kredo" */;
+			buildPhases = (
+				81E2204F1FFE81E8005DE7AB /* Sources */,
+				81E220501FFE81E8005DE7AB /* Frameworks */,
+				81E220511FFE81E8005DE7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kredo;
+			productName = Kredo;
+			productReference = 81E220531FFE81E8005DE7AB /* Kredo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81E220661FFE81E8005DE7AB /* KredoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E2207E1FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "KredoTests" */;
+			buildPhases = (
+				81E220631FFE81E8005DE7AB /* Sources */,
+				81E220641FFE81E8005DE7AB /* Frameworks */,
+				81E220651FFE81E8005DE7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E220691FFE81E8005DE7AB /* PBXTargetDependency */,
+			);
+			name = KredoTests;
+			productName = KredoTests;
+			productReference = 81E220671FFE81E8005DE7AB /* KredoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81E220711FFE81E8005DE7AB /* KredoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E220811FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "KredoUITests" */;
+			buildPhases = (
+				81E2206E1FFE81E8005DE7AB /* Sources */,
+				81E2206F1FFE81E8005DE7AB /* Frameworks */,
+				81E220701FFE81E8005DE7AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E220741FFE81E8005DE7AB /* PBXTargetDependency */,
+			);
+			name = KredoUITests;
+			productName = KredoUITests;
+			productReference = 81E220721FFE81E8005DE7AB /* KredoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81E2204B1FFE81E8005DE7AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Vitaliy Heras";
+				TargetAttributes = {
+					81E220521FFE81E8005DE7AB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					81E220661FFE81E8005DE7AB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81E220521FFE81E8005DE7AB;
+					};
+					81E220711FFE81E8005DE7AB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81E220521FFE81E8005DE7AB;
+					};
+				};
+			};
+			buildConfigurationList = 81E2204E1FFE81E8005DE7AB /* Build configuration list for PBXProject "Kredo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81E2204A1FFE81E8005DE7AB;
+			productRefGroup = 81E220541FFE81E8005DE7AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81E220521FFE81E8005DE7AB /* Kredo */,
+				81E220661FFE81E8005DE7AB /* KredoTests */,
+				81E220711FFE81E8005DE7AB /* KredoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81E220511FFE81E8005DE7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E220611FFE81E8005DE7AB /* LaunchScreen.storyboard in Resources */,
+				81E2205E1FFE81E8005DE7AB /* Assets.xcassets in Resources */,
+				81E2205C1FFE81E8005DE7AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E220651FFE81E8005DE7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E220701FFE81E8005DE7AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E2204F1FFE81E8005DE7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E220881FFE8E52005DE7AB /* ApiManager.swift in Sources */,
+				810B83971FFFDEA400251163 /* OperationsListTableViewController.swift in Sources */,
+				81E220861FFE879D005DE7AB /* MainViewController.swift in Sources */,
+				810B83911FFFA02C00251163 /* CardsListTableViewCell.swift in Sources */,
+				81E2208F1FFE95D3005DE7AB /* PinCodeTableViewCell.swift in Sources */,
+				8152A47F20053E4E007A46C6 /* Switcher.swift in Sources */,
+				81E220591FFE81E8005DE7AB /* ViewController.swift in Sources */,
+				810B839A20009F2200251163 /* OperationTableViewCell.swift in Sources */,
+				810B838E1FFF907000251163 /* User.swift in Sources */,
+				8152A48120062F97007A46C6 /* OperationDetailViewController.swift in Sources */,
+				810B83951FFFD7C000251163 /* OperationModel.swift in Sources */,
+				81E2208A1FFE9459005DE7AB /* SettingsViewController.swift in Sources */,
+				81E2208D1FFE95AF005DE7AB /* TouchIDTableViewCell.swift in Sources */,
+				81E220571FFE81E8005DE7AB /* AppDelegate.swift in Sources */,
+				810B83931FFFA82200251163 /* CardModel.swift in Sources */,
+				810B839C2000B3F800251163 /* SettingsStaticViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E220631FFE81E8005DE7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E2206C1FFE81E8005DE7AB /* KredoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81E2206E1FFE81E8005DE7AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E220771FFE81E8005DE7AB /* KredoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81E220691FFE81E8005DE7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E220521FFE81E8005DE7AB /* Kredo */;
+			targetProxy = 81E220681FFE81E8005DE7AB /* PBXContainerItemProxy */;
+		};
+		81E220741FFE81E8005DE7AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81E220521FFE81E8005DE7AB /* Kredo */;
+			targetProxy = 81E220731FFE81E8005DE7AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81E2205A1FFE81E8005DE7AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E2205B1FFE81E8005DE7AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81E2205F1FFE81E8005DE7AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81E220601FFE81E8005DE7AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81E220791FFE81E8005DE7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81E2207A1FFE81E8005DE7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81E2207C1FFE81E8005DE7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = Kredo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.Kredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81E2207D1FFE81E8005DE7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = Kredo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.Kredo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		81E2207F1FFE81E8005DE7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = KredoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KredoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kredo.app/Kredo";
+			};
+			name = Debug;
+		};
+		81E220801FFE81E8005DE7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = KredoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KredoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kredo.app/Kredo";
+			};
+			name = Release;
+		};
+		81E220821FFE81E8005DE7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = KredoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KredoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kredo;
+			};
+			name = Debug;
+		};
+		81E220831FFE81E8005DE7AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VH5K55DEH2;
+				INFOPLIST_FILE = KredoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.KredoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kredo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81E2204E1FFE81E8005DE7AB /* Build configuration list for PBXProject "Kredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E220791FFE81E8005DE7AB /* Debug */,
+				81E2207A1FFE81E8005DE7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E2207B1FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "Kredo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2207C1FFE81E8005DE7AB /* Debug */,
+				81E2207D1FFE81E8005DE7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E2207E1FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "KredoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E2207F1FFE81E8005DE7AB /* Debug */,
+				81E220801FFE81E8005DE7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E220811FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "KredoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81E220821FFE81E8005DE7AB /* Debug */,
+				81E220831FFE81E8005DE7AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81E2204B1FFE81E8005DE7AB /* Project object */;
+}
