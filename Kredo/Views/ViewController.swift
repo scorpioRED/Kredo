@@ -44,7 +44,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func loginBtn(_ sender: UIButton) {
-        print("is use pin => ", self.userPin)
+        
         if self.userPin != nil {
             print("pin->> ", pinCode.text!)
             print(self.userPin!)
