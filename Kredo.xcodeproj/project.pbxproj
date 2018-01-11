@@ -528,7 +528,7 @@
 				DEVELOPMENT_TEAM = VH5K55DEH2;
 				INFOPLIST_FILE = Kredo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tester.Kredo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorpio.kredo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -543,7 +543,7 @@
 				DEVELOPMENT_TEAM = VH5K55DEH2;
 				INFOPLIST_FILE = Kredo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tester.Kredo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scorpio.kredo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

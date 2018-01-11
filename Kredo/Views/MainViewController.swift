@@ -17,7 +17,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     var cardList:[Card]!
 
     
-    @IBOutlet weak var cardPlaceLoader: UIActivityIndicatorView!
+//    @IBOutlet weak var cardPlaceLoader: UIActivityIndicatorView!
     
     
     var user: UserData!
@@ -85,13 +85,13 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func fetchCards() {
-            self.cardPlaceLoader.isHidden = false
+//            self.cardPlaceLoader.isHidden = false
         ApiManager.sharedInstance.getCardsData(onSuccess: {cardsList in DispatchQueue.main.async{
             print("---- cards List in VC ---- ")
             print(cardsList)
             self.cardList = cardsList
             self.tableView.reloadData()
-            self.cardPlaceLoader.isHidden = true
+//            self.cardPlaceLoader.isHidden = true
             
             
             }}, onFailure: {error in
