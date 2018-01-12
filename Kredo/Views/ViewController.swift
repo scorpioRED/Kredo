@@ -77,8 +77,30 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         self.clientPwd?.delegate = self
         self.pinCode?.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        self.preLogin()
     }
     
+    
+    func preLogin(){
+
+        WebKredoApiManager.sharedInstance.login(userId: 10473837, pwd: "17880285aA",onSuccess: {result in DispatchQueue.main.async{
+            print("Result in prelogin is \n ")
+            
+            
+            }}, onFailure: {error in
+                print("in error Login VC, error is ->> ", error.localizedDescription)
+                DispatchQueue.main.async(execute: {
+                    print("error!!!")
+                
+                })
+                
+                
+        })
+    }
+    
+    
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         isPinCodeAndTouchAllowed()

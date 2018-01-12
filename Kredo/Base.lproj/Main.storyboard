@@ -222,12 +222,28 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GHE-55-L6k">
-                                <rect key="frame" x="164" y="566" width="46" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="LgOut"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maG-zp-mXL">
+                                <rect key="frame" x="19" y="560" width="68" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="6tM-Ds-p11"/>
+                                    <constraint firstAttribute="width" constant="68" id="AcS-ZU-89M"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="limit"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOA-fJ-BGT">
+                                <rect key="frame" x="288" y="560" width="68" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="QeU-AN-9yf"/>
+                                    <constraint firstAttribute="width" constant="68" id="et1-2M-BLt"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="flask"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REx-z3-wTO">
+                                <rect key="frame" x="155" y="560" width="69" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="send"/>
                                 <connections>
-                                    <action selector="lgOutTmp:" destination="dYw-YP-Qxd" eventType="touchUpInside" id="7xu-rm-fav"/>
+                                    <segue destination="ZYn-eQ-YTg" kind="show" id="oab-LC-zN4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -236,17 +252,21 @@
                             <constraint firstItem="ikG-4e-sEs" firstAttribute="top" secondItem="c7x-xb-zSx" secondAttribute="top" constant="4" id="IWS-4b-7fe"/>
                             <constraint firstItem="TV7-U2-x1S" firstAttribute="leading" secondItem="ikG-4e-sEs" secondAttribute="trailing" constant="78" id="Psw-Ce-SHo"/>
                             <constraint firstItem="TV7-U2-x1S" firstAttribute="height" secondItem="ikG-4e-sEs" secondAttribute="height" constant="4" id="R9E-Cf-6Np"/>
+                            <constraint firstItem="c7x-xb-zSx" firstAttribute="bottom" secondItem="cOA-fJ-BGT" secondAttribute="bottom" constant="37" id="SM7-x0-uRQ"/>
                             <constraint firstItem="TV7-U2-x1S" firstAttribute="top" secondItem="ikG-4e-sEs" secondAttribute="top" constant="-4" id="YG7-Qu-1YR"/>
+                            <constraint firstItem="maG-zp-mXL" firstAttribute="leading" secondItem="c7x-xb-zSx" secondAttribute="leading" constant="19" id="dbd-Vm-KMA"/>
                             <constraint firstItem="c7x-xb-zSx" firstAttribute="trailing" secondItem="TV7-U2-x1S" secondAttribute="trailing" constant="16" id="e83-zA-OH7"/>
+                            <constraint firstItem="c7x-xb-zSx" firstAttribute="trailing" secondItem="cOA-fJ-BGT" secondAttribute="trailing" constant="19" id="iPu-Jo-6cg"/>
                             <constraint firstItem="TV7-U2-x1S" firstAttribute="width" secondItem="ikG-4e-sEs" secondAttribute="width" constant="95" id="qai-5x-QjF"/>
                             <constraint firstItem="ikG-4e-sEs" firstAttribute="leading" secondItem="c7x-xb-zSx" secondAttribute="leading" constant="6" id="wjR-X8-GGd"/>
+                            <constraint firstItem="c7x-xb-zSx" firstAttribute="bottom" secondItem="maG-zp-mXL" secondAttribute="bottom" constant="37" id="yjB-ae-GHQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c7x-xb-zSx"/>
                     </view>
                     <navigationItem key="navigationItem" id="Rht-vP-dw2">
                         <barButtonItem key="leftBarButtonItem" image="logout" id="dke-43-CTa">
                             <connections>
-                                <action selector="logOutBtn:" destination="dYw-YP-Qxd" id="KI0-oQ-1LR"/>
+                                <action selector="logOutBtn:" destination="dYw-YP-Qxd" id="RyV-wd-6gS"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="settingsBtn" id="McZ-7H-vAi">
@@ -264,6 +284,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s0c-Oh-6uc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1624.8" y="132.68365817091455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B0G-xa-Bm7">
+            <objects>
+                <viewController id="ZYn-eQ-YTg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="N4e-fk-6YB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebe-Wh-yXF">
+                                <rect key="frame" x="53" y="143" width="68" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd1-0t-A5I">
+                                <rect key="frame" x="153" y="260" width="68" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxP-HD-rbv">
+                                <rect key="frame" x="254" y="143" width="68" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="O56-lk-kTl"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Dj-kY-Qie" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1625" y="889"/>
         </scene>
         <!--Operations List Table View Controller-->
         <scene sceneID="iEo-5w-uBV">
@@ -380,7 +434,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fU-7e-xo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2466.4000000000001" y="428.63568215892059"/>
+            <point key="canvasLocation" x="2805.5999999999999" y="428.63568215892059"/>
         </scene>
         <!--Operation Detail View Controller-->
         <scene sceneID="p01-SZ-5pp">
@@ -502,7 +556,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iUb-8f-o8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3188" y="425.93703148425789"/>
+            <point key="canvasLocation" x="3527.1999999999998" y="425.93703148425789"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3wM-q0-B6R">
@@ -706,9 +760,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="flask" width="128" height="128"/>
+        <image name="limit" width="128" height="128"/>
         <image name="logout" width="24" height="24"/>
         <image name="mastercard" width="64" height="64"/>
         <image name="payment" width="128" height="128"/>
+        <image name="send" width="128" height="128"/>
         <image name="settingsBtn" width="24" height="24"/>
         <image name="share-option" width="64" height="64"/>
         <image name="touch-id-icon" width="212" height="214"/>

@@ -1,12 +1,12 @@
 PODS:
-  - TextFieldEffects (1.4.0)
+  - SwiftSoup (1.5.5)
 
 DEPENDENCIES:
-  - TextFieldEffects
+  - SwiftSoup
 
 SPEC CHECKSUMS:
-  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+  SwiftSoup: 6a31eb02551c9c523eea14aef9d9e70f1466ff99
 
-PODFILE CHECKSUM: b32ae6d21aabad106d4a279cb76e2578d46a657f
+PODFILE CHECKSUM: 7c54550c01d453f78216e54ec99a89b792d937c9
 
 COCOAPODS: 1.3.1

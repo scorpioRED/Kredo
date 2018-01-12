@@ -14,8 +14,13 @@
 		810B83971FFFDEA400251163 /* OperationsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B83961FFFDEA400251163 /* OperationsListTableViewController.swift */; };
 		810B839A20009F2200251163 /* OperationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B839920009F2200251163 /* OperationTableViewCell.swift */; };
 		810B839C2000B3F800251163 /* SettingsStaticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B839B2000B3F800251163 /* SettingsStaticViewController.swift */; };
+		8125C7AA20076A1E005DDD4D /* WebApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125C7A920076A1E005DDD4D /* WebApiManager.swift */; };
+		8125C7AC20076DD6005DDD4D /* ParserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125C7AB20076DD6005DDD4D /* ParserViewController.swift */; };
+		8125C7B020077087005DDD4D /* WebKredoApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8125C7AF20077087005DDD4D /* WebKredoApiManager.swift */; };
+		8125C7B120077369005DDD4D /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8125C7B220077369005DDD4D /* SwiftSoup.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8152A47F20053E4E007A46C6 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152A47E20053E4E007A46C6 /* Switcher.swift */; };
 		8152A48120062F97007A46C6 /* OperationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152A48020062F97007A46C6 /* OperationDetailViewController.swift */; };
+		81A63F3F20078A8D007EDEC8 /* TestStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A63F3E20078A8D007EDEC8 /* TestStoryboard.storyboard */; };
 		81E220571FFE81E8005DE7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220561FFE81E8005DE7AB /* AppDelegate.swift */; };
 		81E220591FFE81E8005DE7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220581FFE81E8005DE7AB /* ViewController.swift */; };
 		81E2205C1FFE81E8005DE7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E2205A1FFE81E8005DE7AB /* Main.storyboard */; };
@@ -28,6 +33,7 @@
 		81E2208A1FFE9459005DE7AB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E220891FFE9459005DE7AB /* SettingsViewController.swift */; };
 		81E2208D1FFE95AF005DE7AB /* TouchIDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2208C1FFE95AF005DE7AB /* TouchIDTableViewCell.swift */; };
 		81E2208F1FFE95D3005DE7AB /* PinCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2208E1FFE95D3005DE7AB /* PinCodeTableViewCell.swift */; };
+		A6E8E53DF62F5C6A1181B3A6 /* Pods_Kredo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F664EC6BC3E9A5EA5EB15558 /* Pods_Kredo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C9146B17E9C89CDD3835ED5 /* Pods-Kredo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kredo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kredo/Pods-Kredo.debug.xcconfig"; sourceTree = "<group>"; };
 		810B838D1FFF907000251163 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		810B83901FFFA02C00251163 /* CardsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListTableViewCell.swift; sourceTree = "<group>"; };
 		810B83921FFFA82200251163 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
@@ -55,9 +62,13 @@
 		810B83961FFFDEA400251163 /* OperationsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsListTableViewController.swift; sourceTree = "<group>"; };
 		810B839920009F2200251163 /* OperationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTableViewCell.swift; sourceTree = "<group>"; };
 		810B839B2000B3F800251163 /* SettingsStaticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStaticViewController.swift; sourceTree = "<group>"; };
-		810B83A02004C4BC00251163 /* TextFieldEffects.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TextFieldEffects.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8125C7A920076A1E005DDD4D /* WebApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebApiManager.swift; path = /Users/scorpio/Documents/XcodeProjects/KredoDirect/Kredo/Kredo/WebApiManager.swift; sourceTree = "<absolute>"; };
+		8125C7AB20076DD6005DDD4D /* ParserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserViewController.swift; sourceTree = "<group>"; };
+		8125C7AF20077087005DDD4D /* WebKredoApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKredoApiManager.swift; sourceTree = "<group>"; };
+		8125C7B220077369005DDD4D /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8152A47E20053E4E007A46C6 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
 		8152A48020062F97007A46C6 /* OperationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationDetailViewController.swift; sourceTree = "<group>"; };
+		81A63F3E20078A8D007EDEC8 /* TestStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestStoryboard.storyboard; sourceTree = "<group>"; };
 		81E220531FFE81E8005DE7AB /* Kredo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kredo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E220561FFE81E8005DE7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81E220581FFE81E8005DE7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +87,8 @@
 		81E220891FFE9459005DE7AB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		81E2208C1FFE95AF005DE7AB /* TouchIDTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDTableViewCell.swift; sourceTree = "<group>"; };
 		81E2208E1FFE95D3005DE7AB /* PinCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeTableViewCell.swift; sourceTree = "<group>"; };
+		9DCC7F6B09B52A6CD67B330E /* Pods-Kredo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kredo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kredo/Pods-Kredo.release.xcconfig"; sourceTree = "<group>"; };
+		F664EC6BC3E9A5EA5EB15558 /* Pods_Kredo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kredo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8125C7B120077369005DDD4D /* SwiftSoup.framework in Frameworks */,
+				A6E8E53DF62F5C6A1181B3A6 /* Pods_Kredo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +138,14 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
+		816545582007744600A9285B /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				8125C7A920076A1E005DDD4D /* WebApiManager.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		81E2204A1FFE81E8005DE7AB = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +154,8 @@
 				81E220751FFE81E8005DE7AB /* KredoUITests */,
 				81E220541FFE81E8005DE7AB /* Products */,
 				CF37D34B5563CC2B119CE695 /* Frameworks */,
+				816545582007744600A9285B /* Recovered References */,
+				F79CF85FA29DEACD9E455522 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,8 +172,10 @@
 		81E220551FFE81E8005DE7AB /* Kredo */ = {
 			isa = PBXGroup;
 			children = (
+				81A63F3E20078A8D007EDEC8 /* TestStoryboard.storyboard */,
 				810B838F1FFF907600251163 /* Models */,
 				81E220871FFE8E52005DE7AB /* ApiManager.swift */,
+				8125C7AF20077087005DDD4D /* WebKredoApiManager.swift */,
 				8152A47E20053E4E007A46C6 /* Switcher.swift */,
 				81E220841FFE8744005DE7AB /* Views */,
 				81E220561FFE81E8005DE7AB /* AppDelegate.swift */,
@@ -156,6 +183,7 @@
 				81E2205D1FFE81E8005DE7AB /* Assets.xcassets */,
 				81E2205F1FFE81E8005DE7AB /* LaunchScreen.storyboard */,
 				81E220621FFE81E8005DE7AB /* Info.plist */,
+				8125C7AB20076DD6005DDD4D /* ParserViewController.swift */,
 			);
 			path = Kredo;
 			sourceTree = "<group>";
@@ -204,9 +232,19 @@
 		CF37D34B5563CC2B119CE695 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				810B83A02004C4BC00251163 /* TextFieldEffects.framework */,
+				8125C7B220077369005DDD4D /* SwiftSoup.framework */,
+				F664EC6BC3E9A5EA5EB15558 /* Pods_Kredo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F79CF85FA29DEACD9E455522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C9146B17E9C89CDD3835ED5 /* Pods-Kredo.debug.xcconfig */,
+				9DCC7F6B09B52A6CD67B330E /* Pods-Kredo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81E2207B1FFE81E8005DE7AB /* Build configuration list for PBXNativeTarget "Kredo" */;
 			buildPhases = (
+				155B6FA1D4BE9AF2CAE431BF /* [CP] Check Pods Manifest.lock */,
 				81E2204F1FFE81E8005DE7AB /* Sources */,
 				81E220501FFE81E8005DE7AB /* Frameworks */,
 				81E220511FFE81E8005DE7AB /* Resources */,
+				06A339E88CAAEDC8AE45D29E /* [CP] Embed Pods Frameworks */,
+				4DA2452B206A33AD9026E240 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81E220611FFE81E8005DE7AB /* LaunchScreen.storyboard in Resources */,
+				81A63F3F20078A8D007EDEC8 /* TestStoryboard.storyboard in Resources */,
 				81E2205E1FFE81E8005DE7AB /* Assets.xcassets in Resources */,
 				81E2205C1FFE81E8005DE7AB /* Main.storyboard in Resources */,
 			);
@@ -338,6 +380,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06A339E88CAAEDC8AE45D29E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Kredo/Pods-Kredo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSoup/SwiftSoup.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSoup.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kredo/Pods-Kredo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		155B6FA1D4BE9AF2CAE431BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kredo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DA2452B206A33AD9026E240 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kredo/Pods-Kredo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		81E2204F1FFE81E8005DE7AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -345,16 +441,19 @@
 			files = (
 				81E220881FFE8E52005DE7AB /* ApiManager.swift in Sources */,
 				810B83971FFFDEA400251163 /* OperationsListTableViewController.swift in Sources */,
+				8125C7AA20076A1E005DDD4D /* WebApiManager.swift in Sources */,
 				81E220861FFE879D005DE7AB /* MainViewController.swift in Sources */,
 				810B83911FFFA02C00251163 /* CardsListTableViewCell.swift in Sources */,
 				81E2208F1FFE95D3005DE7AB /* PinCodeTableViewCell.swift in Sources */,
 				8152A47F20053E4E007A46C6 /* Switcher.swift in Sources */,
 				81E220591FFE81E8005DE7AB /* ViewController.swift in Sources */,
 				810B839A20009F2200251163 /* OperationTableViewCell.swift in Sources */,
+				8125C7AC20076DD6005DDD4D /* ParserViewController.swift in Sources */,
 				810B838E1FFF907000251163 /* User.swift in Sources */,
 				8152A48120062F97007A46C6 /* OperationDetailViewController.swift in Sources */,
 				810B83951FFFD7C000251163 /* OperationModel.swift in Sources */,
 				81E2208A1FFE9459005DE7AB /* SettingsViewController.swift in Sources */,
+				8125C7B020077087005DDD4D /* WebKredoApiManager.swift in Sources */,
 				81E2208D1FFE95AF005DE7AB /* TouchIDTableViewCell.swift in Sources */,
 				81E220571FFE81E8005DE7AB /* AppDelegate.swift in Sources */,
 				810B83931FFFA82200251163 /* CardModel.swift in Sources */,
@@ -522,6 +621,7 @@
 		};
 		81E2207C1FFE81E8005DE7AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C9146B17E9C89CDD3835ED5 /* Pods-Kredo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +637,7 @@
 		};
 		81E2207D1FFE81E8005DE7AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCC7F6B09B52A6CD67B330E /* Pods-Kredo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
