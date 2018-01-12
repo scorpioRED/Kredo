@@ -14,6 +14,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var currencyTableView: UITableView!
+    
     var cardList:[Card]!
 
     /// View which contains the loading text and the spinner
@@ -26,6 +28,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     let loadingLabel = UILabel()
     
 //    @IBOutlet weak var cardPlaceLoader: UIActivityIndicatorView!
+    
     
     
     var user: UserData!
@@ -53,9 +56,15 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.setLoadingScreen ()
+        
+        
+        self.currencyTableView.dataSource = self
+        self.currencyTableView.delegate = self
         
         refreshControl = UIRefreshControl()
         refreshControl.attributedTitle = NSAttributedString(string: "Потягни щоб оновити")
@@ -116,6 +125,9 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+
+        
         if (self.cardList != nil) {
             return self.cardList.count
         } else {
