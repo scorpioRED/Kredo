@@ -84,7 +84,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     
     func preLogin(){
 
-        WebKredoApiManager.sharedInstance.login(userId: 10473837, pwd: "17880285aA",onSuccess: {result in DispatchQueue.main.async{
+        WebKredoApiManager.sharedInstance.login(userId: 11111111, pwd: "22222222",onSuccess: {result in DispatchQueue.main.async{
             print("Result in prelogin is \n ")
             
             
